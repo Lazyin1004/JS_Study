@@ -28,6 +28,8 @@ function 공색칠하기(숫자,결과창) {
     공.style.height = '20px';
     공.style.textAlign = 'center';
     공.style.marginRight = '10px'
+    공.style.fontSize='10px'
+    공.className='공아이디' + 숫자;
     var 배경색;
     if(숫자 <=10 ){
         배경색 = 'red';
