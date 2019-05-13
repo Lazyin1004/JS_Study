@@ -4,3 +4,4 @@ document.querySelector('#exec').addEventListener('click',function(){
     var mine = document.querySelector('#mine').value;
     console.log(hor,ver,mine)
 })
+console.log(hor,ver,mine);
