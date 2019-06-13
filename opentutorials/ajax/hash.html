@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="#three">three</a>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Odio vero soluta accusantium. Vitae corporis a maxime odio voluptatum sequi ex laboriosam.
+        Quis illo optio rerum esse nostrum, eos nesciunt explicabo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Odio vero soluta accusantium. Vitae corporis a maxime odio voluptatum sequi ex laboriosam.
+        Quis illo optio rerum esse nostrum, eos nesciunt explicabo.
+    </p>
+    <p id="three">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Odio vero soluta accusantium. Vitae corporis a maxime odio voluptatum sequi ex laboriosam.
+        Quis illo optio rerum esse nostrum, eos nesciunt explicabo.
+    </p>
+
+    <script>
+        if(location.hash){
+            console.log(location.hash.substr(1));
+        }else{
+            //fragment dosen't exsit
+        }
+    </script>
+</body>
+</html>
